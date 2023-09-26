@@ -1,0 +1,7 @@
+build
+*.secrets
+.github/workflows/payload.json
+*.exe
+createSolutionsZip.py
+createUrlPaths.py
+ex_folders.txt

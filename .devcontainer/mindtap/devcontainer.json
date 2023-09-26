@@ -1,0 +1,25 @@
+{
+  "name": "MindTap",
+  "docker": {
+    "image": "mcr.microsoft.com/devcontainers/universal:linux"
+  },
+
+  "workspaceFolder": "workspaces/9780357880876_pld-10e-python/chapter1/ex01/student/",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["*.py"]
+    }
+  },
+  "settings": {
+    "sync": false,
+    "workbench.activityBar.visible": false
+  },
+
+  "forwardPorts": [3005],
+  "portsAttributes": {
+    "3005": {
+      "label": "cengage-companion"
+    }
+  },
+  "extensions": ["cengage.cengage-companion"]
+}
